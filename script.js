@@ -9,7 +9,7 @@ const pass_error=document.getElementById('pass_error');
 form.addEventListener('submit',(e)=>
 {
     var email_check= /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-    var pass_check=/(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/^;
+    var pass_check=/(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/;
 
     if(!email.value.match(email_check))
         {

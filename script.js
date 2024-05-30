@@ -47,7 +47,7 @@ form.addEventListener('submit',(e)=>
     }
     else
         {
-                email_error.innerHTML = "";
+                pass_error.innerHTML = "";
         }
     if(password.value == "")
         {
